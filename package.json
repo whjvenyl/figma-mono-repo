@@ -1,0 +1,26 @@
+{
+  "name": "figma-mono-repo",
+  "version": "1.0.0",
+  "keywords": [
+    "create-figma-plugin",
+    "figma",
+    "figma-plugin"
+  ],
+  "license": "MIT",
+  "author": "whjvenyl",
+  "dependencies": {
+    "@create-figma-plugin/utilities": "*"
+  },
+  "devDependencies": {
+    "@create-figma-plugin/build": "*"
+  },
+  "scripts": {
+    "build": "build-figma-plugin",
+    "watch": "build-figma-plugin --watch"
+  },
+  "figma-plugin": {
+    "id": "figma-mono-repo",
+    "name": "Mono Repo",
+    "main": "src/main.js"
+  }
+}
